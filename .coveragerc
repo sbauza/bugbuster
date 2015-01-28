@@ -1,0 +1,7 @@
+[run]
+branch = True
+source = bugbuster
+omit = bugbuster/tests/*,bugbuster/openstack/*
+
+[report]
+ignore-errors = True
