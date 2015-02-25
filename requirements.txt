@@ -1,6 +1,13 @@
-# The order of packages is significant, because pip processes them in the order
-# of appearance. Changing the order has an impact on the overall integration
-# process, which may cause wedges in the gate later.
+eventlet>=0.13.0
+iso8601>=0.1.9
+oslo.config>=1.2.1
+pbr>=0.5.21,<1.0
+pecan>=0.4.5
+six>=1.7.0
+stevedore>=0.14
+Babel>=0.9.6
+Jinja2
+oslo.log
+oslo.serialization
+oslo.utils
 
-pbr>=0.6,!=0.7,<1.0
-Babel>=1.3
